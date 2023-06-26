@@ -26,7 +26,7 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void divisao() {
-        int resultado = Calculadora.divisao(8,2);
-        Assertions.assertEquals(4, resultado);
+        int resultado = Calculadora.divisao(8,4);
+        Assertions.assertEquals(2, resultado);
     }
 }
