@@ -1,5 +1,7 @@
 package com.senac;
 
 public class ParImpar {
-    //teste
+    public static boolean valida(int x) {
+        return x % 2 == 0;
+    }
 }
